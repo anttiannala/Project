@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="css.css">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Varaa palvelu</title>
 </head>
 <body>
@@ -52,8 +52,10 @@
                <input type="checkbox" id="Muu korjaus,tarkenna" name="Muu korjaus,tarkenna" value="Muu korjaus,tarkenna">
                <label for="Muu korjaus,tarkenna">Muu korjaus, tarkenna</label><br>
                <br>
-               <input type="text" id="tarkennus" name="tarkennus" value="tarkenna ongelmasi" style="width: 300px;height: 150px; font-weight: lighter; font-style: italic;">
-              </form>
+               <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Auton ongelman Tarkennus</label>
+              </div>
               <br>
               <br>
               <h3>Mikä päivä sinulle sopisi?</h3>
@@ -82,17 +84,32 @@
              <option value="Tyota">
              <option value="Porche">
             </datalist> 
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              <label for="floatingTextarea">Auton malli</label>
+            </div>
             <br>
+            <h5>Paljonko autolla on ajettu?</h5>
             <input type="text" id="Ajomäärä" name="Ajomäärä" value="Paljonko autola on ajettu" style="width: 250px;height: 25px; font-weight: lighter; font-style: italic;">
-          <!--Footer-->
-           <center>
-           <div class="container-fluid" style="background-color:black;">
+            <br>
+            <h5>Kirjoita Tiedot</h5>
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
+             <label for="floatingInputValue">Kirjoita sähköposti osoitteesi</label>
+            </div>
+              <br>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea"> Kirjoita Etu- ja sukunimesi</label>
+              </div>
            
+           <div class="container-fluid" style="background-color:black;">
+           <center>
            <h3 style="color:yellow;">Autokorjaamo.</h3><br>
            <a href="https://anttiannala.github.io/Project/index.html">Etusivu</a> <a href="#">Link</a> <a href="https://anttiannala.github.io/Project/Varaa-aika/Varaapalvelu.html">Varaa aika</a> <a href="https://anttiannala.github.io/Project/TietoaMeista.html">Tietoa meistä</a><br>
-           
+          </center>
            </div>
-           </center>
+           
 
           </div>
 

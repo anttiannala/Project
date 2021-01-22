@@ -1,5 +1,6 @@
 body{
     background-color: rgb(243, 239, 225);
+    
 }
 a{
     color:gray;
@@ -7,3 +8,7 @@ a{
 a:hover{
     color:yellow;
 }
+img.one{
+    width: 100%;
+   }
+

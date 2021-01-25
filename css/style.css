@@ -1,0 +1,16 @@
+body {
+    background-color: lightsteelblue;
+}
+a:link{
+    color:gray;
+}
+a:hover{
+    color:yellow;
+}
+a:visited{
+    color:orange
+}
+th {
+    color:yellow;
+    padding:5px;
+}

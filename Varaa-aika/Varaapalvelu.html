@@ -10,6 +10,7 @@
 <body>
 
    <header style="background-color: gray;" width="100%" height="10px"></header>
+   <!--navigation-->
     <div class="container-fluid">
 
         <div class="row" style="margin-bottom: 5px;">
@@ -34,10 +35,14 @@
                   </nav>
             </div>
             <br>
+            <div class="container-fluid" style="background-color:grey;" >    
+              <div class="container" style="background-color:white;">
+              </div>
+            </div>
         </div>   
         <div class="container-md">
           <center>
-           <h2><strong>Minkä laista huoltoa tarvitset?</strong></h2>
+           <h2><strong>Minkälaista huoltoa tarvitset?</strong></h2>
             <form>
                <input type="checkbox" id="määräaikaishuolto" name="Määräaikaishuolto" value="Määräaikaishuolto">
                <label for="Määräaikaishuolto">Määräaikaishuolto</label>
@@ -73,7 +78,7 @@
             <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Valitse merkki">
             <datalist id="datalistOptions">
              <option value="BMW">
-             <option value="Volgswagen">
+             <option value="Volkswagen">
              <option value="Volvo">
              <option value="Ford">
              <option value="Mercedes-benz">
@@ -82,9 +87,9 @@
              <option value="Lexus">
              <option value="Dodge">
              <option value="Opel">
-             <option value="Madza">
-             <option value="Tyota">
-             <option value="Porche">
+             <option value="Mazda">
+             <option value="Toyota">
+             <option value="Porsche">
             </datalist> 
             <div class="form-floating">
               <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
@@ -95,8 +100,8 @@
               <label for="floatingTextarea">Auton rekisteritunnus</label>
             </div>
             <br>
-            <h5><strong>Paljonko autolla on ajettu?</strong></h5>
-            <input type="text" id="Ajomäärä" name="Ajomäärä" value="Paljonko autola on ajettu" style="width: 250px;height: 25px; font-weight: lighter; font-style: italic;">
+            <h5><strong>Paljonko on autolla ajettu</strong></h5>
+            <input type="text" id="Ajomäärä" name="Ajomäärä" value="Paljonko autolla on ajettu" style="width: 250px;height: 25px; font-weight: lighter; font-style: italic;">
             <br>
             <h5>Kirjoita Tiedot</h5>
             <div class="form-floating">

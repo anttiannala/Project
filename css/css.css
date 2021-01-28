@@ -1,0 +1,59 @@
+a{
+    color:grey;
+}
+a:hover{
+    color:yellow;
+}
+th {
+    color:yellow;
+    padding:5px;
+}
+.text-block1 {
+    position:absolute;
+    bottom: 30px;
+    right: 250px;
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 5px;
+}
+.text-block2 {
+    position:absolute;
+    bottom: 20px;
+    right: 700px;
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 5px;
+}
+.text-block3 {
+    position:absolute;
+    bottom: 40px;
+    right: 650px;
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+    padding-right: 80px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 5px;
+}
+body{
+  background-color: rgb(243, 239, 225);
+}
+div.container a{
+color:black;
+}
+div.container a:hover{
+color:yellow;
+}
+address{
+  color:gray;
+  margin:0px;
+}

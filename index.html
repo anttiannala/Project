@@ -4,74 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="AutoKorjaamo, Auto huolto, Huolto hinnasto, Aukioloajat, Uutisia">
+        <meta name="author" content="Antti Annala, Eetu Lehmusvuori, Mikael Fabritius">
         <title>Etusivu</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link href="/css/css.css" rel="stylesheet" type="text/css" media="screen">
-        <style>
-    a{
-        color:grey;
-    }
-    a:hover{
-        color:yellow;
-    }
-    th {
-        color:yellow;
-        padding:5px;
-    }
-    .text-block1 {
-        position:absolute;
-        bottom: 30px;
-        right: 250px;
-        background-color: black;
-        color: white;
-        padding-left: 40px;
-        padding-right: 80px;
-        padding-top:15px;
-        padding-bottom:15px;
-        border-radius: 5px;
-    }
-    .text-block2 {
-        position:absolute;
-        bottom: 20px;
-        right: 700px;
-        background-color: black;
-        color: white;
-        padding-left: 40px;
-        padding-right: 80px;
-        padding-top:15px;
-        padding-bottom:15px;
-        border-radius: 5px;
-    }
-    .text-block3 {
-        position:absolute;
-        bottom: 40px;
-        right: 650px;
-        background-color: black;
-        color: white;
-        padding-left: 40px;
-        padding-right: 80px;
-        padding-top:15px;
-        padding-bottom:15px;
-        border-radius: 5px;
-    }
-    body{
-      background-color: #bbb;
-    }
-    div.container a{
-    color:black;
-    }
-    div.container a:hover{
-    color:yellow;
-    }
-
-        </style>
+        <link href="css/css.css" rel="stylesheet" type="text/css" media="screen">
     </head>
 <body>
 
 
-    <div class="container-fluid">
+  <div class="container-fluid">
 
-            <!--NAvbar 2-->
+            <!--Navbar-->
             <div class="row" style="margin-bottom: 0px;">
             <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black;">
               <div class="container-fluid">
@@ -96,14 +39,11 @@
             </nav>
           </div>
 
+<div class="container-fluid" style="background-color: rgb(243, 239, 225);" >    
+  <div class="container" style="background-color: rgb(243, 239, 225);">
 
-
-
-<div class="container-fluid" style="background-color:#bbb;" >    
-  <div class="container" style="background-color:#bbb;">
+        <!--Carousel-->
         <div class="container" >
-            <!--Carousel-->
-
             <div style="background-image: linear-gradient(black, grey);" id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
 
@@ -128,7 +68,7 @@
                     <a href="https://anttiannala.github.io/Project/TietoaMeista.html"><div class="text-block3">
                       <h3 style="color:yellow;">Hinnasto</h3>
                       <p>Tarkista palveluidemme hinnat klikkaamalla tästä!</p>
-                    </div>
+                    </div></a>
                   </div>
 
                 </div>
@@ -142,8 +82,9 @@
                 </a>
               </div>
          </div><br>
+
             <!--Aukioloajat-->
-              <div class="container" style="background-color: #bbb;">
+              <div class="container" style="background-color: rgb(243, 239, 225);">
                 <div class="card" style="width: 350px;font-size: large;background-color: black;">
                     <div class="card-body">
                         <h1 style="color:yellow;">Aukioloajat</h1>
@@ -162,15 +103,15 @@
                 <div class="row">
                   <div class="col-sm-4" style="background-color:#ccc;">
                     <a target="_blank" href="https://www.iltalehti.fi/autouutiset/a/920ff5ed-a070-483b-8ade-6eb9557aa964"><h3>Mercedes esitteli ensimmäisen pienen sähköautonsa - hinta jää alle 50 000 euron?</h3></a>
-                    <img src="images/mercedes.jpg" width="50%" height="50%" alt="https://pixabay.com/fi/photos/mercedes-190-sl-oldtimer-klassinen-3690957/">
+                    <img src="images/mercedes.jpg" style="margin: 5px;" width="190" height="135" alt="https://pixabay.com/fi/photos/mercedes-190-sl-oldtimer-klassinen-3690957/">
                   </div>
                   <div class="col-sm-4" style="background-color:#aaa;">
                     <a target="_blank" href="https://www.iltalehti.fi/autouutiset/a/63e9949e-ff5a-495d-ba16-a42adf5155d2"><h3>Tällaisen auton suomalainen haluaa: Hinta alle 20000 euroa - Mersu ja Volvo suosituimmat!</h3></a>
-                    <img src="images/auto.jpg" width="50%" height="50%" alt="https://commons.wikimedia.org/wiki/File:Puli_(Car)_Pinguin_4.jpg">
+                    <img src="images/auto.jpg" style="margin: 5px;" width="190" height="135" alt="https://commons.wikimedia.org/wiki/File:Puli_(Car)_Pinguin_4.jpg">
                   </div>
                   <div class="col-sm-4" style="background-color:#ccc;">
                     <a target="_blank" href="https://www.iltalehti.fi/autouutiset/a/9ab5cfcd-f26d-4c18-b25d-5db56bd3a538"><h3>Tältä näyttää täysin uusi Lada Niva: Ensimmäinen kuva paljastaa hurjan muutoksen</h3></a>
-                    <img src="images/lada.jpg" width="50%" height="50%" alt="https://pixabay.com/fi/photos/auto-jeeppi-ajoneuvon-seikkailu-4260033/">
+                    <img src="images/lada.jpg" style="margin: 5px;" width="190" height="135" alt="https://pixabay.com/fi/photos/auto-jeeppi-ajoneuvon-seikkailu-4260033/">
                   </div>
                   </div>
               </div>
@@ -179,38 +120,36 @@
                 <div class="row">
                   <div class="col-sm-4" style="background-color:#aaa;">
                     <a target="_blank" href="https://www.iltalehti.fi/autouutiset/a/d51f6f9f-0f53-4676-a0f3-d031233b1c88"><h3>Jopa karjan lannasta polttoainetta – Öljyn korvaajaksi ehdolla myös levä</h3></a>
-                    <img src="images/karja.jpg" width="50%" height="50%" alt="https://pixabay.com/fi/photos/lehm%C3%A4-lehm%C3%A4t-karja-niitty-el%C3%A4inten-4354411/">
+                    <img src="images/karja.jpg" style="margin: 5px;" width="190" height="135" alt="https://pixabay.com/fi/photos/lehm%C3%A4-lehm%C3%A4t-karja-niitty-el%C3%A4inten-4354411/">
                   </div>
                   <div class="col-sm-4" style="background-color:#ccc;">
                     <a target="_blank" href="https://www.iltalehti.fi/autouutiset/a/201802272200774834"><h3>Punainen vai musta ensin? Näin kytket käynnistyskaapelit oikein akkuun</h3></a>
-                    <img src="images/akku.png" width="50%" height="50%" alt="https://pixabay.com/fi/vectors/auton-akku-akku-johtaa-akulla-296788/">
+                    <img src="images/akku.png" style="margin: 5px;" width="190" height="135" alt="https://pixabay.com/fi/vectors/auton-akku-akku-johtaa-akulla-296788/">
                   </div>
                   <div class="col-sm-4" style="background-color:#aaa;">
                     <a target="_blank" href="https://www.iltalehti.fi/autouutiset/a/bfb0ec20-09ca-4164-81e0-2520295800df"><h3>Romutuspalkkion porsaanreikä tukitaan – palkkio vain yhdestä autosta</h3></a>
-                    <img src="images/romu.jpg" width="50%" height="50%" alt="https://pixabay.com/fi/photos/auton-romu-sammal-vanha-mets%C3%A4-571448/">
+                    <img src="images/romu.jpg" style="margin: 5px;" width="190" height="135" alt="https://pixabay.com/fi/photos/auton-romu-sammal-vanha-mets%C3%A4-571448/">
                   </div>
                 </div>
               </div>
 
      </div>
     </div>
-  </div>
-   </div>     
-  
-    
+</div>
+
     <!--Footer-->
-    <div class="container-fluid" style="background-color:black;">
-    <center>
+    <div class="container-fluid" style="background-color:black;text-align: center;height:auto;">
+
       <h3 style="color:yellow;">Autokorjaamo.</h3><br>
       <a href="https://anttiannala.github.io/Project/index.html">Etusivu</a> <a href="https://anttiannala.github.io/Project/Hinnasto.html">Hinnasto</a> <a href="https://anttiannala.github.io/Project/Varaa-aika/Varaapalvelu.html">Varaa palvelu</a> <a href="https://anttiannala.github.io/Project/TietoaMeista.html">Tietoa meistä</a><br>
     <br>
     <h3 style="color: yellow;">Yhteystiedot</h3>
-    <addres style="color: grey;">
+    <address>
       autokorjaamo@autokorjaamo.com<br>
       045 123 4567<br>
       Vankanlähde 9, 13100 Hämeenlinna<br><br><br>
-    </addres>
-    </center>
+    </address>
+
     </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>

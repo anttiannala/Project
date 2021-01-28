@@ -1,6 +1,6 @@
 body{
     background-color: rgb(243, 239, 225);
-    
+  
 }
 a{
     color:gray;
@@ -32,4 +32,7 @@ abbr[title]:after
    {
       content: "";
    }
+}
+address{
+    color: rgb(175, 175, 175);
 }

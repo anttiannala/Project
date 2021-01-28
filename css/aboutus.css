@@ -33,3 +33,6 @@ abbr[title]:after
       content: "";
    }
 }
+address{
+    color: rgb(175, 175, 175);
+}

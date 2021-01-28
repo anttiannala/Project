@@ -1,5 +1,5 @@
 body {
-    background-color: lightsteelblue;
+    background-color: #bbb;
 }
 a:link{
     color:gray;
@@ -12,5 +12,5 @@ a:visited{
 }
 th {
     color:yellow;
-    padding:5px;
+    padding: 5px;
 }

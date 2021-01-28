@@ -1,6 +1,6 @@
 body{
     background-color: rgb(243, 239, 225);
-    
+  
 }
 a{
     color:gray;
@@ -13,4 +13,23 @@ img.one{
    }
 div.aboutus{
     margin-left: 5px;
+    
+}
+abbr[title]:after
+{
+   content: " (" attr(title) ")";
+}
+
+@media screen and (min-width: 800px)
+{
+   abbr[title]
+   {
+      border-bottom: 1px dashed #ADADAD;
+      cursor:help;
+   }
+
+   abbr[title]:after
+   {
+      content: "";
+   }
 }

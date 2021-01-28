@@ -1,6 +1,3 @@
-body {
-    background-color: #bbb;
-}
 a:link{
     color:gray;
 }
@@ -14,3 +11,8 @@ th {
     color:yellow;
     padding: 5px;
 }
+address{
+   color: gray;
+   margin:0px;
+}
+

@@ -33,3 +33,7 @@ abbr[title]:after
       content: "";
    }
 }
+address{
+    color: gray;
+    margin-bottom: 0px;
+}

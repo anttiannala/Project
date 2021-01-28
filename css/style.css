@@ -7,10 +7,7 @@ a:hover{
 a:visited{
     color:orange
 }
-th {
-    color:yellow;
-    padding: 5px;
-}
+
 address{
    color: gray;
    margin:0px;

@@ -37,3 +37,6 @@ address{
     color: gray;
     margin-bottom: 0px;
 }
+a:visited{
+    color:orange
+}

@@ -4,6 +4,9 @@ a{
 a:hover{
     color:yellow;
 }
+a:visited{
+    color:orange
+}
 th {
     color:yellow;
     padding:5px;
@@ -13,6 +16,7 @@ th {
     width:50%;
     padding:10px;
     border-radius: 4px;
+    position: relative;
 }
 
 .text-block2 {

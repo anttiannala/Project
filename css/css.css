@@ -4,9 +4,7 @@ a{
 a:hover{
     color:yellow;
 }
-a:visited{
-    color:orange
-}
+
 th {
     color:yellow;
     padding:5px;

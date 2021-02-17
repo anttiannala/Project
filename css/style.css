@@ -4,9 +4,7 @@ a:link{
 a:hover{
     color:yellow;
 }
-a:visited{
-    color:orange
-}
+
 
 address{
    color: gray;

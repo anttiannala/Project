@@ -43,39 +43,39 @@
           <center>
             <!--Checkbox-->
            <h2><strong>Minkälaista huoltoa tarvitset?</strong></h2>
-            <form>
-               <input type="checkbox" id="määräaikaishuolto" name="Määräaikaishuolto" value="Määräaikaishuolto">
+            
+               <input type="checkbox" id="Määräaikaishuolto" name="Määräaikaishuolto" value="Määräaikaishuolto">
                <label for="Määräaikaishuolto">Määräaikaishuolto</label>
                <input type="checkbox" id="Renkaiden_vaihto" name="Renkaiden vaihto" value="Renkaiden vaihto">
-               <label for="Renkaiden vaihto">Renkaiden vaihto</label>
+               <label for="Renkaiden_vaihto">Renkaiden vaihto</label>
                <br>
                <input type="checkbox" id="Öljynvaihto" name="Öljynvaihto" value="Öljynvaihto">
                <label for="Öljynvaihto">Öljynvaihto</label>
                <input type="checkbox" id="Jakohihnan_vaihto" name="Jakohihnan vaihto" value="Jakohihnan vaihto">
-               <label for="Jakohihnan vaihto">Jakohihnan vaihto</label>
+               <label for="Jakohihnan_vaihto">Jakohihnan vaihto</label>
                <br>
               <input type="checkbox" id="Ilmastointi" name="Ilmastointi" value="Ilmastointi">
                <label for="Ilmastointi">Ilmastointi</label>
                <input type="checkbox" id="Muu_korjaus,tarkenna" name="Muu korjaus,tarkenna" value="Muu korjaus,tarkenna">
-               <label for="Muu korjaus,tarkenna">Muu korjaus, tarkenna</label><br>
+               <label for="Muu_korjaus,tarkenna">Muu korjaus, tarkenna</label><br>
                <br>
                <div class="form-floating">
                 <textarea class="form-control" placeholder="Ongelman tarkennus" id="Tarkennus"></textarea>
-                <label for="floatingTextarea">Auton ongelman Tarkennus</label>
+                <label for="Tarkennus">Auton ongelman Tarkennus</label>
               </div>
               <br>
               <br>
               <h3><strong>Mikä päivä sinulle sopisi?</strong></h3>
               <form action="/action_page.php">
-                <label for="päivämäärä">Valitse sopiva päivämäärä</label>
+                <label for="huolto">Valitse sopiva päivämäärä</label>
                 <input type="date" id="huolto" name="päivämäärä">
               </form>
               
-           </form> 
+    
           </center>
           <!--Datalist-->
           <h5><strong>Auton tiedot</strong></h5>
-          <label for="exampleDataList" class="form-label">Auton tiedot</label>
+          <label for="automerkkejä" class="form-label">Auton tiedot</label>
             <input class="form-control" list="datalistOptions" id="automerkkejä" placeholder="Valitse merkki">
             <datalist id="datalistOptions">
              <option value="BMW">
@@ -92,13 +92,14 @@
              <option value="Toyota">
              <option value="Porsche">
             </datalist> 
+            <!--Floating forms-->
             <div class="form-floating">
               <textarea class="form-control" placeholder="Auton_Malli" id="Auton_malli"></textarea>
-              <label for="floatingTextarea">Auton malli</label>
+              <label for="Auton_malli">Auton malli</label>
             </div>
             <div class="form-floating">
               <textarea class="form-control" placeholder="Auton_rekisteritunnus" id="Rekisteritunnus"></textarea>
-              <label for="floatingTextarea">Auton rekisteritunnus</label>
+              <label for="Rekisteritunnus">Auton rekisteritunnus</label>
             </div>
             <br>
             <h5><strong>Auton mittarilukema</strong></h5>
@@ -107,20 +108,21 @@
             <h5>Kirjoita Tiedot</h5>
             <div class="form-floating">
               <input type="email" class="form-control" id="sähköposti" placeholder="name@example.com" value="test@example.com">
-             <label for="floatingInputValue">Kirjoita sähköposti osoitteesi</label>
+             <label for="sähköposti">Kirjoita sähköposti osoitteesi</label>
             </div>
               <br>
 
               <div class="form-floating">
                 <textarea class="form-control" placeholder="Etu-ja_sukunimi" id="Etujasukunimi"></textarea>
-                <label for="floatingTextarea"> Kirjoita Etu- ja sukunimesi</label>
+                <label for="Etujasukunimi"> Kirjoita Etu- ja sukunimesi</label>
               </div>
               <br>
 
               <div class="form-floating">
                 <textarea class="form-control" placeholder="Puhelinnumero" id="Puhelinnumero"></textarea>
-                <label for="floatingTextarea">Puhelinnumero</label>
+                <label for="Puhelinnumero">Puhelinnumero</label>
               </div>
+              <br>
 
             <div class="d-grid gap-2">
               <button class="btn btn-primary" type="button" style="background-color: yellow; color: #000; font-weight: bolder;">Varaa Huoltoaika</button>
@@ -132,8 +134,8 @@
             
           
           <!--Footer-->
-      <div class="container-fluid" style="background-color:black;">
-      <center>
+      <div class="container-fluid" style="background-color:black; text-align: center;">
+     
         <h3 style="color:yellow;">Autokorjaamo.</h3><br>
         <a href="https://anttiannala.github.io/Project/index.html">Etusivu</a> <a href="https://anttiannala.github.io/Project/Hinnasto.html">Hinnasto</a> <a href="https://anttiannala.github.io/Project/Varaa-aika/Varaapalvelu.html">Varaa palvelu</a> <a href="https://anttiannala.github.io/Project/TietoaMeista.html">Tietoa meistä</a><br>
       <br>
@@ -143,7 +145,7 @@
         045 123 4567<br>
         Vankanlähde 9, 13100 Hämeenlinna<br><br><br>
       </address>
-      </center>
+     
       </div>
              
              
